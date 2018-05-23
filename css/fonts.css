@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Proxima-Bold';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/e9e8aea9/fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Bold-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'Proxima-SemiBold';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/e9e8aea9/fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Condensed%20Semibold-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'Proxima-Regular';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Regular-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'SF-Medium';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/SF-Pro-Display-Medium.otf')
+}
+
+@font-face {
+    font-family: 'SF-Medium';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/SF-Pro-Display-Medium.otf')
+}
+
+@font-face {
+    font-family: 'SF-Regular';
+    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/SF-Pro-Display-Regular.otf')
+}
+
+
