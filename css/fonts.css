@@ -19,11 +19,6 @@
 }
 
 @font-face {
-    font-family: 'SF-Medium';
-    src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/SF-Pro-Display-Medium.otf')
-}
-
-@font-face {
     font-family: 'SF-Regular';
     src: url('https://cdn.rawgit.com/trypocketchef/kitchen/c88c99dd/fonts/SF-Pro-Display-Regular.otf')
 }
