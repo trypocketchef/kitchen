@@ -318,9 +318,6 @@ header {
     position: absolute;
     width: 3px;
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -620,7 +617,7 @@ header {
 ----------------------*/
 
 .social-icons {
-    text-align: right;
+    /* text-align: right; */
 }
 
 .social-icons a {
@@ -668,4 +665,48 @@ header {
     line-height: 1.3;
     letter-spacing: normal;
     color: #ffffff;
+}
+
+.text-sub-header {
+    font-family: 'Proxima-SemiBold';
+    color: #08243c;
+    font-size: 24px;
+}
+
+.text-sub-tagline {
+    font-family: 'Proxima-Regular';
+    color: #08243c;
+    font-family: 16px;
+}
+
+.feature-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light {
+    background-color: #f2f4f5;
+}
+
+.btn-brand {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29c59e;
+    border-radius: 4px;
+    height: 48px;
+    width: 240px;
+}
+
+.btn-brand-alt {
+    color: #29c59e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 48px;
 }
