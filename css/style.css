@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "fonts.css";
 
 /*
 
@@ -32,7 +33,7 @@ Copyright © All rights Reserved
 ----------------------*/
 
 body {
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
     position: relative;
 }
 
@@ -656,6 +657,7 @@ header {
     line-height: 1;
     letter-spacing: normal;
     color: #ffffff;
+    font-family: 'Proxima-Bold';
 }
 
 .text-tagline {
