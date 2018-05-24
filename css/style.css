@@ -726,3 +726,16 @@ header {
     width: 2rem;
     height: auto;
 }
+/* For our form placeholders */
+::placeholder {
+    opacity: 0.5;
+    font-family: 'Proxima-Regular';
+}
+
+.font-brand {
+    font-family: 'Proxima-Regular';
+}
+
+.o-7 {
+    opacity: 0.7;
+}
