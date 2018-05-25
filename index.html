@@ -20,8 +20,8 @@ URI     : https://colorlib.com
         gtag('config', 'UA-118257237-1');
     </script>
 
-    <title>MobApp - App Landing Page Template</title>
-
+    <title>Pocketchef - Find Recipes With What You Have</title>
+    <link rel="icon" type="image/png" href="images/logo-brand.png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -56,9 +56,8 @@ URI     : https://colorlib.com
                         <a class="navbar-brand" href="#home">
                             <img src="images/logoweb.png" class="img-fluid" alt="logo">
                         </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" style="border-color:transparent">
+                            <a class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" id="myBtn" style="font-size:14px; cursor:pointer">Get Access</a>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
@@ -77,7 +76,7 @@ URI     : https://colorlib.com
                                     <a class="nav-link text-capitalize" href="#our-story">Our Story</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-md-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize" id="myBtn" style="font-size:1rem">Get Access</a>
+                                    <a class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" id="myBtn" style="font-size:14px; cursor:pointer">Get Access</a>
                                 </li>
                             </ul>
                         </div>
@@ -166,8 +165,8 @@ URI     : https://colorlib.com
                 <p class="text-sub-header text-capitalize">See How It Works</p>
                 <p class="text-sub-tagline">Select any number of ingredients below and see what you can cook with them </p>
             </div>
-            <div class="row">
-                <div class="btn-brand text-capitalize text-center" id="myBtn2" style="width: 25%; margin: 0 auto;">See More Recipes</div>
+            <div class="row d-flex justify-content-center">
+                <div class="btn-brand text-capitalize text-center w-100 col-md-3 col-5" id="myBtn2" style="">See More Recipes</div>
             </div>
         </div>
     </div>
@@ -205,18 +204,17 @@ URI     : https://colorlib.com
                 <div class="mb-4 w-100 d-md-flex justify-content-between">
                     <div class="mr-2 col-md-6 pl-0 mb-4">
                         <label class="font-brand o-7" for="form-name">Name</label>
-                        <input id="form-name" class="w-100" type="text" name="name" placeholder="Your Name">
+                        <input id="form-name" class="w-100" type="text" name="name" placeholder="Your Name" style="border:solid 2px #d0d6d9">
                     </div>
                     <div class="ml-md-2 col-md-6 pl-0">
                         <label class="font-brand o-7" for="form-email">Email</label>
-                        <input id="form-email" class="w-100" type="email" name="email" placeholder="Email Address">
+                        <input id="form-email" class="w-100" type="email" name="email" placeholder="Email Address" style="border:solid 2px #d0d6d9">
                     </div>
                 </div>
                 <label class="font-brand o-7" for="form-message">Message</label>
-                <textarea class="mb-4 w-100" name="message" placeholder="Your message" style="height:10rem; width:15rem;"></textarea>
-                <!-- <input id="form-message" class="mb-4 w-100" type="text" name="message" placeholder="" style="height:10rem; width:15rem;"> -->
+                <textarea class="mb-4 w-100" name="message" placeholder="Your message" style="height:10rem; width:15rem;border:solid 2px #d0d6d9;"></textarea>
                 <div class="d-flex justify-content-center px-0">
-                    <input class="btn-brand text-capitalize" type="submit" value="Submit">
+                    <input class="btn-brand text-capitalize border-0" type="submit" value="Submit" style="cursor:pointer">
                 </div>
             </form>
         </div>
