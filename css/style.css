@@ -106,7 +106,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #000000;
 }
 
 .btn-primary {
@@ -433,8 +433,14 @@ header {
     background: #ffffff;
 }
 .nav-bar-nav > li > a:hover {
-    color: white;
+    color: black;
     background: white;
+}
+.nav-link-black:hover {
+    color: black !important;
+}
+.nav-link-black.active {
+    color: black !important;
 }
 .nav-tabs .nav-link.active {
     background: #FFF;
@@ -701,6 +707,17 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #29c59e;
+    border-radius: 4px;
+    height: 48px;
+    width: 240px;
+}
+
+.btn-brand-submit {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec6767;
     border-radius: 4px;
     height: 48px;
     width: 240px;

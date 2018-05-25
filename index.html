@@ -57,7 +57,7 @@ URI     : https://colorlib.com
                             <img src="images/logoweb.png" class="img-fluid" alt="logo">
                         </a>
                         <button class="navbar-toggler" type="button" style="border-color:transparent">
-                            <a class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" id="mobile-nav-btn" style="font-size:14px; cursor:pointer">Get Access</a>
+                            <a class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" href="#get-access" style="font-size:14px; cursor:pointer">Get Access</a>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
@@ -76,7 +76,8 @@ URI     : https://colorlib.com
                                     <a class="nav-link text-capitalize" href="#our-story">Our Story</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" id="desktop-nav-btn" style="font-size:14px; cursor:pointer">Get Access</a>
+                                    <a class="nav-link-black btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" href="#get-access"
+                                        style="font-size:14px; cursor:pointer;">Get Access</a>
                                 </li>
                             </ul>
                         </div>
@@ -85,18 +86,20 @@ URI     : https://colorlib.com
             </div>
         </div>
     </div>
-    
+
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
-    <!-- Modal content -->
+        <!-- Modal content -->
         <div class="modal-content">
             <p class="title">Explore More Recipes with Pocketchef</p>
             <p class="text"> 🍎 Hello! You caught us before we're ready.</p>
-            <p class="subtext">We’re working hard to put the finishing touches into Pocketchef. Things are going well and we should be ready to launch very soon. If you’d like us to send you a reminder when we’re ready and get early access to the app, just put your email in below: </p>
+            <p class="subtext">We’re working hard to put the finishing touches into Pocketchef. Things are going well and we should be ready
+                to launch very soon. If you’d like us to send you a reminder when we’re ready and get early access to the
+                app, just put your email in below: </p>
             <form action="https://formcarry.com/s/BksQDpN1Q" method="POST" accept-charset="UTF-8">
                 <input id="form-email" type="email" name="email" placeholder="Email Address" class="email">
-                <input type="hidden" name="_subject" value="Thanks For Reaching Out to Pocketchef"/>
+                <input type="hidden" name="_subject" value="Thanks For Reaching Out to Pocketchef" />
                 <button type="submit" class="signup">Sign Up</button>
             </form>
             <span class="close">Sorry, I'm not interested</span>
@@ -176,45 +179,28 @@ URI     : https://colorlib.com
             <div class="section-title">
                 <p class="text-sub-header text-capitalize">Our Story</p>
                 <div style="padding:56.25% 0 0 0;position:relative;">
-                    <iframe src="https://player.vimeo.com/video/269307113" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                    <iframe src="https://player.vimeo.com/video/269307113" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
     </div>
     <!-- // end .section -->
-    <div class="section bg-brand">
-        <div class="container">
+    <div class="section bg-brand" id="get-access">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="section-title">
-                <p class="text-sub-header text-capitalize text-white">Ready to Start Cooking?</p>
+                <p class="text-sub-header text-capitalize text-white">Interested?</p>
+                <p class="text-tagline mb-4">Sign up for our waitlist now and get early access!</p>
             </div>
-            <div class="row">
-                <div class="btn-brand-alt text-capitalize text-center" id="myBtn3" style="width: 25%; margin: 0 auto;">Get Access</div>
-            </div>
-        </div>
-    </div>
-    <!-- // end .section -->
-    <div class="section" id="access">
-
-        <div class="container col-8 col-md-5">
-            <div class="section-title">
-                <p class="text-sub-header text-capitalize">Get In Touch</p>
-            </div>
-            <form class="d-flex flex-column" action="https://formcarry.com/s/BksQDpN1Q" method="POST" accept-charset="UTF-8">
+            <form class="col-md-6" action="https://formcarry.com/s/BksQDpN1Q" method="POST" accept-charset="UTF-8">
                 <div class="mb-4 w-100 d-md-flex justify-content-between">
-                    <div class="mr-2 col-md-6 pl-0 mb-4">
-                        <label class="font-brand o-7" for="form-name">Name</label>
-                        <input id="form-name" class="w-100" type="text" name="name" placeholder="Your Name" style="border:solid 2px #d0d6d9; height:2.5rem;">
+                    <div class="mr-md-2 col-md-9 pl-md-0 mb-4 px-0">
+                        <input id="form-email" class="w-100" type="email" name="email" placeholder="Email Address" style="border:solid 2px #d0d6d9; height:3rem; border-radius:4px;">
                     </div>
-                    <div class="ml-md-2 col-md-6 pl-0">
-                        <label class="font-brand o-7" for="form-email">Email</label>
-                        <input id="form-email" class="w-100" type="email" name="email" placeholder="Email Address" style="border:solid 2px #d0d6d9; height:2.5rem;">
+                    <div class="d-flex justify-content-center px-0 col-md-3">
+                        <input class="btn-brand-submit text-capitalize border-0 w-100" type="submit" value="Submit" style="cursor:pointer">
                     </div>
-                </div>
-                <label class="font-brand o-7" for="form-message">Message</label>
-                <textarea class="mb-4 w-100" name="message" placeholder="Your message" style="height:10rem; width:15rem;border:solid 2px #d0d6d9;"></textarea>
-                <div class="d-flex justify-content-center px-0">
-                    <input class="btn-brand text-capitalize border-0" type="submit" value="Submit" style="cursor:pointer">
                 </div>
             </form>
         </div>
@@ -247,3 +233,30 @@ URI     : https://colorlib.com
 </body>
 
 </html>
+
+
+<!--  Feedback message Form
+
+        <div class="container col-8 col-md-5">
+            <div class="section-title">
+                <p class="text-sub-header text-capitalize">Get In Touch</p>
+            </div>
+            <form class="d-flex flex-column" action="https://formcarry.com/s/BksQDpN1Q" method="POST" accept-charset="UTF-8">
+                <div class="mb-4 w-100 d-md-flex justify-content-between">
+                    <div class="mr-2 col-md-6 pl-0 mb-4">
+                        <label class="font-brand o-7" for="form-name">Name</label>
+                        <input id="form-name" class="w-100" type="text" name="name" placeholder="Your Name" style="border:solid 2px #d0d6d9; height:2.5rem;">
+                    </div>
+                    <div class="ml-md-2 col-md-6 pl-0">
+                        <label class="font-brand o-7" for="form-email">Email</label>
+                        <input id="form-email" class="w-100" type="email" name="email" placeholder="Email Address" style="border:solid 2px #d0d6d9; height:2.5rem;">
+                    </div>
+                </div>
+                <label class="font-brand o-7" for="form-message">Message</label>
+                <textarea class="mb-4 w-100" name="message" placeholder="Your message" style="height:10rem; width:15rem;border:solid 2px #d0d6d9;"></textarea>
+                <div class="d-flex justify-content-center px-0">
+                    <input class="btn-brand text-capitalize border-0" type="submit" value="Submit" style="cursor:pointer">
+                </div>
+            </form>
+        </div>
+-->
