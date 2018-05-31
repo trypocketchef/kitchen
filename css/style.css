@@ -263,7 +263,13 @@ header {
 }
 
 .img-fluid {
-    max-width: 40%;
+    max-width: 25%;
+}
+
+@media (max-width: 414px) {
+    .img-fluid {
+        max-width: 40%;
+    }
 }
 
 @media (max-width:1200px) {
