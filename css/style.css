@@ -443,10 +443,10 @@ header {
     background: white;
 }
 .nav-link-black:hover {
-    color: black !important;
+    color: #29c59e !important;
 }
 .nav-link-black.active {
-    color: black !important;
+    color: #29c59e !important;
 }
 .nav-tabs .nav-link.active {
     background: #FFF;
