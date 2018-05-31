@@ -249,6 +249,30 @@
     <script src="js/script.js"></script>
     <!-- Modal JS -->
     <script src="js/modal.js"></script>
+    
+      <!-- Formcarry AJAX Response Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".ajaxForm").submit(function(e){
+                e.preventDefault();
+                var href = $(this).attr("action");
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: href,
+                    data: $(this).serialize(),
+                    success: function(response){
+                        if(response.status == "success"){
+                            alert("We received your submission, thank you!");
+                        }else{
+                            alert("An error occured: " + response.message);
+                        }
+                    }
+                });
+            });
+        });
+      </script>
 </body>
 
 </html>
