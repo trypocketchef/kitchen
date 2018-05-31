@@ -743,11 +743,13 @@ header {
 .feature-image-wrapper {
     width: 5rem;
     height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .social-media-image-wrapper {
     width: 2rem;
-    height: auto;
+    height: auto;  
 }
 
 /* For our form placeholders */
