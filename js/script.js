@@ -29,14 +29,14 @@ $(function () {
         $('.section').each(function () {
             if ($(this).offset().top < window.pageYOffset + 10 && $(this).offset().top + $(this).height() > window.pageYOffset + 10) {
                 var data = $(this).attr('id');
-                window.location.hash = data;
+                history.pushState(null, null, `/${data}`);
             }
         });
         if (window.pageYOffset === 0) {
-            window.location.hash = '#home';
+            history.pushState(null, null, '/home');
         }
         if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
-            window.location.hash = '#get-access';
+            history.pushState(null, null, '/get-access');
         }
     });
     /*-----------------------------------
