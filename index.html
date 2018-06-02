@@ -50,6 +50,8 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- Modal CSS -->
     <link href="css/modalStyle.css" rel="stylesheet">
+    <!-- Demo CSS-->
+    <link href="css/demo.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -85,7 +87,7 @@
                                     <a class="nav-link text-capitalize" href=#demo>Demo</a>
                                 </li>-->
                                 <li class="nav-item">
-                                    <a class="nav-link text-capitalize" href=#our-story>Demo</a>
+                                    <a class="nav-link text-capitalize" href=#demo>Demo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link-black btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link text-capitalize pointer" href="#get-access"
@@ -175,18 +177,51 @@
         </div>
     </div>
     <!-- // end .section -->
-    <!--<div class="section" id="demo">
+
+    <!-- Start of Demo Section-->
+    <div class="section" id="demo">
         <div class="container">
             <div class="section-title">
-                <p class="text-sub-header text-capitalize">See How It Works</p>
+                <p class="text-sub-header text-capitalize">Finding Recipes by Ingredients is Easy!</p>
                 <p class="text-sub-tagline">Select any number of ingredients below and see what you can cook with them </p>
+                <button id="button-apple" class="demo-buttons" onclick="prepareContent('apples');buttonState(this.id);">🍎 Apple</button>
+                <button id="button-broccoli" class="demo-buttons" onclick="prepareContent('broccoli');buttonState(this.id);">🥦 Broccoli</button>
+                <button id="button-chicken" class="demo-buttons" onclick="prepareContent('chicken');buttonState(this.id);">🐔 Chicken</button>
+                <button id="button-egg" class="demo-buttons" onclick="prepareContent('eggs');buttonState(this.id);">🍳 Egg</button>
+                
+            </div>
+            <div class="demo">
+                <!--Card 1-->
+                <div class="democard" id="test">
+                    <img id=card1image></img>
+                    <p class="mealrecipe" id="card1mealrecipe"></p>
+                    <p class="ingredients" id="card1ingredients"></p>
+                    <p class="calories" id="card1kcal"></p>
+                    <p class="preptime" id="card1preptime"></p>
+                </div>
+                <!--Card 2-->
+                <div class="democard" id="test">
+                    <img id=card2image></img>
+                    <p class="mealrecipe" id="card2mealrecipe"></p>
+                    <p class="ingredients" id="card2ingredients"></p>
+                    <p class="calories" id="card2kcal"></p>
+                    <p class="preptime" id="card2preptime"></p>
+                </div>
+                <!--Card 3-->
+                <div class="democard" id="test">
+                    <img id=card3image></img>
+                    <p class="mealrecipe" id="card3mealrecipe"></p>
+                    <p class="ingredients" id="card3ingredients"></p>
+                    <p class="calories" id="card3kcal"></p>
+                    <p class="preptime" id="card3preptime"></p>
+                </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="btn-brand text-capitalize text-center w-100 col-md-3 col-5" id="myBtn2" style="cursor:pointer">See More Recipes</div>
+                <a style="text-decoration:none; color:#ffffff;" class="btn-brand text-capitalize text-center w-100 col-md-3 col-5" id="myBtn2" style="cursor:pointer" href="#get-access">See More Recipes</a>
             </div>
         </div>
-    </div>-->
-    <!-- // end .section -->
+    </div>
+    <!-- End of Demo Section -->
     <div class="section bg-light" id="our-story">
         <div class="container">
             <div class="section-title">
@@ -222,16 +257,16 @@
     <footer class="my-5 text-center">
         <!-- Copyright removal is not prohibited! -->
         <p class="mb-2">
-            <small>Copyright © 2018 Pocketchef.</small>
+            <small>Copyright © 2018 PocketChef.</small>
         </p>
-        <div class="social-icons">
+        <!-- <div class="social-icons">
             <a href="#">
                 <img class="social-media-image-wrapper" src="images/facebook-logo.png">
             </a>
             <a href="#">
                 <img class="social-media-image-wrapper" src="images/instagram-logo.png">
             </a>
-        </div>
+        </div> -->
     </footer>
     
     <script>
@@ -249,7 +284,8 @@
     <script src="js/script.js"></script>
     <!-- Modal JS -->
     <script src="js/modal.js"></script>
-    
+    <!-- Demo JS-->
+    <script src="js/demo.js"></script>    
      
 </body>
 
