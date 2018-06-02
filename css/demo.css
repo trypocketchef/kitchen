@@ -21,6 +21,7 @@ button.demo-buttons {
 @media (max-width: 450px) {
   button.demo-buttons {
     width: 80px;
+    font-size: 10px;
   }
 }
 
