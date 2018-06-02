@@ -1,0 +1,130 @@
+@import 'fonts.css';
+
+button.demo-buttons {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: solid 1px #e8eced;
+  font-family: 'SF-Regular';
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d0d6d9;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media (max-width: 450px) {
+  button.demo-buttons {
+    width: 80px;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
+
+.mealrecipe {
+  font-family: 'SF-Medium';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #212121;
+  position: relative;
+  top: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.ingredients {
+  font-family: 'SF-Regular';
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #212121;
+  position: relative;
+  top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.demo {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.democard {
+  width: 343px;
+  height: 240px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 4px;
+  border: solid 1px #e8eced;
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(33, 33, 33, 0.1);
+}
+
+@media (max-width: 1200px) {
+  .democard {
+    display: block;
+    align-items: center;
+    margin: 20px auto;
+  }
+}
+
+.democard img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  border-radius: 4px;
+}
+
+.bookmark {
+  max-width: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.calories {
+  font-family: 'SF-Regular';
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #212121;
+  position: relative;
+  top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.preptime {
+  font-family: 'SF-Regular';
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #212121;
+  position: relative;
+  bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
