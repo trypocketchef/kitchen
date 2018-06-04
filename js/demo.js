@@ -157,6 +157,9 @@ function switchEndpoint() {
 };
 
 function emptyContent() {
+    document.getElementById('card1image').src = "";
+    document.getElementById("card2image").src = "";
+    document.getElementById("card3image").src = "";
     document.getElementById("card1mealrecipe").innerHTML = "";
     document.getElementById("card2mealrecipe").innerHTML = "";
     document.getElementById("card3mealrecipe").innerHTML = "";
@@ -170,9 +173,6 @@ function emptyContent() {
     document.getElementById("card1preptime").innerHTML = "";
     document.getElementById("card2preptime").innerHTML = "";
     document.getElementById("card3preptime").innerHTML = "";
-    document.getElementById('card1image').src = "";
-    document.getElementById("card2image").src = "";
-    document.getElementById("card3image").src = "";
 };
 
 function loadContent(endpoint) {
@@ -185,6 +185,9 @@ function loadContent(endpoint) {
                 ingredients = json[items].mealingredients;
                 kcal = json[items].mealkcalserving;
                 preptime = json[items].mealprepdurationmins;
+                document.getElementById('card1image').src = json[0].mealimageurlhighresifpossible;
+                document.getElementById("card2image").src = json[1].mealimageurlhighresifpossible;
+                document.getElementById("card3image").src = json[2].mealimageurlhighresifpossible;
                 document.getElementById("card1mealrecipe").innerHTML = json[0].mealtitle;
                 document.getElementById("card2mealrecipe").innerHTML = json[1].mealtitle;
                 document.getElementById("card3mealrecipe").innerHTML = json[2].mealtitle;
@@ -197,9 +200,6 @@ function loadContent(endpoint) {
                 document.getElementById("card1preptime").innerHTML = "Prep Duration: " + json[0].mealprepdurationmins + " mins";
                 document.getElementById("card2preptime").innerHTML = "Prep Duration: " + json[1].mealprepdurationmins + " mins";
                 document.getElementById("card3preptime").innerHTML = "Prep Duration: " + json[2].mealprepdurationmins + " mins";
-                document.getElementById('card1image').src = json[0].mealimageurlhighresifpossible;
-                document.getElementById("card2image").src = json[1].mealimageurlhighresifpossible;
-                document.getElementById("card3image").src = json[2].mealimageurlhighresifpossible;
             }
             console.log(json[0].mealtitle);
         }
